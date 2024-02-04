@@ -5,6 +5,6 @@ document.getElementById('noBtn').addEventListener('click', function() {
 });
 
 document.getElementById('yesBtn').addEventListener('click', function() {
-  document.querySelector('.container').style.display = 'none';
-  document.getElementById('responseGifContainer').style.display = 'block';
+  document.querySelector('.message-container').style.display = 'none';
+  document.querySelector('#askingGif').src = 'answer.gif';
 });

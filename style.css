@@ -23,16 +23,13 @@ body, html {
 }
 
 .yes {
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
+  color: white;
 }
 
 .no {
-  background-color: #f44336; /* Red */
-}
-
-.large {
-  padding: 15px 30px;
-  font-size: 20px;
+  background-color: #f44336;
+  color: white;
 }
 
 .gif-container > img {
